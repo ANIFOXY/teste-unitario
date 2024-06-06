@@ -10,7 +10,7 @@ class ServicoExercicio {
     Subtrair(num1, num2){
       if(isNaN(num1) || isNaN(num2)){
         throw new Error('somente numeros')
-      }
+      }5
       return num1 - num2;
     }
 
