@@ -47,7 +47,7 @@ class ControllerExercicio {
         const num1 = req.body.num1
         const num2 = req.body.num2
 
-        const result = servico.Multiplicar(num1, num2)
+        const result = servico.Multiplicar(num1, num2);
         
         res.status(200).json({ result });
       } catch (error) {

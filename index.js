@@ -9,7 +9,7 @@ app.use(routers);
 
 const PORT = '3000';
 
-if(precess.env.NODE_ENV != "test") {
+if(process.env.NODE_ENV != "test") {
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
